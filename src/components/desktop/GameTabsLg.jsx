@@ -13,7 +13,7 @@ import ponewine from "../../assets/img/ponewine.jpg";
 import styles from "./GameTabsLg.module.css";
 import digitBetLogo from "./logo.webp";
 import shanLogo from "./Shan/assets/img/shan.jpg";
-import ponewineLogo from "./PoneWine/assets/img/mobile.png";
+import ponewineLogo from "./ponewine/assets/img/mobile.png";
 import TwoDLogo from "../../assets/img/logo.png";
 import useGuestRegister from "../../hooks/useGuestRegister";
 import CredentialsDisplay from "../CredentialsDisplay";
