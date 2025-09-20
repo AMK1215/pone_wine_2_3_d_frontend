@@ -49,7 +49,7 @@ export default function ShanGame() {
       const data = await response.json();
       if (data.code === 200 && data.url) {
         setSuccess('Game launched successfully!');
-        window.open(data.url, '_blank');
+        window.location.href = data.url;
       } else {
         setError(data.message || 'Failed to launch game.');
       }
