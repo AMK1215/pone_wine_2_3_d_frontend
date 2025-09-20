@@ -209,7 +209,7 @@ const SidebarLg = ({ show, onClose }) => {
               contacts.map((contact, index) => (
                 <Link to='/contact' key={index} onClick={onClose}>
                   <img
-                    src={`https://https://ponewine22x.xyz/api/../${contact.image}`}
+                    src={`https://https://ag.ponewine20x.xyz/api/../${contact.image}`}
                     className='rounded-lg w-12 h-12'
                     alt={contact.name}
                   />
@@ -292,7 +292,7 @@ export default SidebarLg;
 //         <div className="flex justify-center gap-4 mt-6 mb-8">
 //           {contacts && contacts.map((contact, index) => (
 //             <Link to={contact.link} key={index} onClick={onClose}>
-//               <img src={"https://https://ponewine22x.xyz/api/../"+contact.image} className="rounded-lg w-12 h-12" alt={contact.name} />
+//               <img src={"https://https://ag.ponewine20x.xyz/api/../"+contact.image} className="rounded-lg w-12 h-12" alt={contact.name} />
 //             </Link>
 //           ))}
 //         </div>

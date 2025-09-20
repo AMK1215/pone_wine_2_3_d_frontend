@@ -37,7 +37,7 @@ const AuthContextProvider = ({ children }) => {
   useEffect(() => {
     if (token) {
       const interval = setInterval(() => {
-        fetch('https://ponewine22x.xyz/api/user', {
+        fetch('https://ag.ponewine20x.xyz/api/user', {
           headers: {
             Authorization: `Bearer ${token}`,
             Accept: 'application/json',

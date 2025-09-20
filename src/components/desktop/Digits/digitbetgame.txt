@@ -29,7 +29,7 @@ const digitImages = [
 function useUser() {
   const [user, setUser] = useState(null);
   useEffect(() => {
-    fetch('https://ponewine22x.xyz/api/user', {
+    fetch('https://ag.ponewine20x.xyz/api/user', {
       headers: {
         'Authorization': 'Bearer ' + localStorage.getItem('token'),
         'Accept': 'application/json'

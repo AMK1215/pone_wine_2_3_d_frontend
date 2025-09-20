@@ -29,7 +29,7 @@ const Carousels = () => {
         <div className='w-full h-full rounded-3xl bg-[#181A29]'>
           {banners && banners.length > 0 ? (
             <img
-              src={'https://ponewine22x.xyz/api/..' + banners[current].img_url}
+              src={'https://ag.ponewine20x.xyz/api/..' + banners[current].img_url}
               className='w-full h-48 sm:h-64 object-cover object-center transition-all duration-500 rounded-3xl'
               alt={'Banner ' + (current + 1)}
             />

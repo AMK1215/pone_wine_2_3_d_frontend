@@ -50,7 +50,7 @@ const digitImages = [
 function useUser() {
   const [user, setUser] = useState(null);
   useEffect(() => {
-    fetch('https://ponewine22x.xyz/api/user', {
+    fetch('https://ag.ponewine20x.xyz/api/user', {
       headers: {
         Authorization: 'Bearer ' + localStorage.getItem('token'),
         Accept: 'application/json',
@@ -165,7 +165,7 @@ export default function DigitBetGame() {
   const handleRollRef = useRef();
 
   useEffect(() => {
-    fetch('https://ponewine22x.xyz/api/digitbet/history', {
+    fetch('https://ag.ponewine20x.xyz/api/digitbet/history', {
       headers: {
         Authorization: 'Bearer ' + localStorage.getItem('token'),
         Accept: 'application/json',
@@ -223,7 +223,7 @@ export default function DigitBetGame() {
         multiplier: betMultiplier,
       };
 
-      const response = await fetch('https://ponewine22x.xyz/api/digitbet', {
+      const response = await fetch('https://ag.ponewine20x.xyz/api/digitbet', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -248,7 +248,7 @@ export default function DigitBetGame() {
       } else {
         setApiResponseMessage(`❌ ${data.message}`);
         // If there's an error, refresh history separately
-        fetch('https://ponewine22x.xyz/api/digitbet/history', {
+        fetch('https://ag.ponewine20x.xyz/api/digitbet/history', {
           headers: {
             Authorization: 'Bearer ' + localStorage.getItem('token'),
             Accept: 'application/json',

@@ -108,7 +108,7 @@ const Promotion = () => {
                       {/* Image */}
                       <div className="relative mb-6 overflow-hidden rounded-2xl">
                         <img
-                            src={"https://ponewine22x.xyz/api/.."+item.img_url}
+                            src={"https://ag.ponewine20x.xyz/api/.."+item.img_url}
                             className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
                             alt={item.title}
                         />
@@ -198,7 +198,7 @@ const Promotion = () => {
                 </div>
 
                 <img
-                    src={"https://ponewine22x.xyz/api/.."+selectedPromotion.img_url}
+                    src={"https://ag.ponewine20x.xyz/api/.."+selectedPromotion.img_url}
                     className="w-full h-64 object-cover rounded-2xl mb-6"
                     alt={selectedPromotion.title}
                 />

@@ -12,7 +12,7 @@ export default function PoneWineGame() {
   useEffect(() => {
     // Fetch user info on mount
     setFetchingUser(true);
-    fetch('https://ponewine22x.xyz/api/user', {
+    fetch('https://ag.ponewine20x.xyz/api/user', {
       headers: {
         Authorization: 'Bearer ' + localStorage.getItem('token'),
         Accept: 'application/json',
@@ -32,7 +32,7 @@ export default function PoneWineGame() {
     setSuccess(null);
     try {
       const response = await fetch(
-        'https://ponewine22x.xyz/api/ponewine/pone-wine/launch-game',
+        'https://ag.ponewine20x.xyz/api/ponewine/pone-wine/launch-game',
         {
           method: 'POST',
           headers: {

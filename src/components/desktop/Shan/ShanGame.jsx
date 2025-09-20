@@ -12,7 +12,7 @@ export default function ShanGame() {
   useEffect(() => {
     // Fetch user info on mount
     setFetchingUser(true);
-    fetch('https://ponewine22x.xyz/api/user', {
+    fetch('https://ag.ponewine20x.xyz/api/user', {
       headers: {
         Authorization: 'Bearer ' + localStorage.getItem('token'),
         Accept: 'application/json',
@@ -32,7 +32,7 @@ export default function ShanGame() {
     setSuccess(null);
     try {
       const response = await fetch(
-        'https://ponewine22x.xyz/api/shankomee/launch-game',
+        'https://ag.ponewine20x.xyz/api/shankomee/launch-game',
         {
           method: 'POST',
           headers: {
